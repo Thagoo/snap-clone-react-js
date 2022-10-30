@@ -1,8 +1,6 @@
 .footer-icons {
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
+    margin-top: 20px;
 }
 img {
-    margin: 10px;
+    padding: 0 10px;
 }
