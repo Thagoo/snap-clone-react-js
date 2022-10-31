@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { NavDropdown, Dropdown, DropdownButton } from "react-bootstrap/";
+import { Dropdown } from "react-bootstrap/";
 
 class NavbarMenu extends React.Component {
   render() {
@@ -22,7 +22,7 @@ class NavbarMenu extends React.Component {
             </Navbar.Brand>
 
             <Nav className="me-auto">
-              <Dropdown autoClose={false}>
+              <Dropdown>
                 <Dropdown.Toggle
                   style={{
                     backgroundColor: `#fafafa`,
