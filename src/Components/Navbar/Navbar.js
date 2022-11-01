@@ -116,9 +116,9 @@ class NavbarMenu extends React.Component {
                 <Nav.Link className="navBarItems" href="">
                   Login
                 </Nav.Link>
-                <Nav.Link className="navBarItems btn btn-outline-dark" href="">
+                <Button className="navBarItems" variant="outline-dark">
                   Register
-                </Nav.Link>
+                </Button>
               </Nav>
             </Navbar.Collapse>
           </Container>
