@@ -24,7 +24,11 @@ class NavbarMenu extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <NavDropdown title="Features" id="collasible-nav-dropdown">
+                <NavDropdown
+                  className="navBarItems"
+                  title="Features"
+                  id="collasible-nav-dropdown"
+                >
                   <DropdownMenu className="shadow-lg">
                     <NavDropdown.Item href="#action/3.1">
                       <svg
@@ -84,7 +88,11 @@ class NavbarMenu extends React.Component {
                     </NavDropdown.Item>
                   </DropdownMenu>
                 </NavDropdown>
-                <NavDropdown title="Company" id="collasible-nav-dropdown">
+                <NavDropdown
+                  className="navBarItems"
+                  title="Company"
+                  id="collasible-nav-dropdown"
+                >
                   <DropdownMenu className="shadow-lg">
                     <NavDropdown.Item href="#action/3.1">
                       History
@@ -96,13 +104,21 @@ class NavbarMenu extends React.Component {
                   </DropdownMenu>
                 </NavDropdown>
 
-                <Nav.Link href="">Careers</Nav.Link>
+                <Nav.Link className="navBarItems" href="">
+                  Careers
+                </Nav.Link>
 
-                <Nav.Link href="">About</Nav.Link>
+                <Nav.Link className="navBarItems" href="">
+                  About
+                </Nav.Link>
               </Nav>
               <Nav>
-                <Nav.Link href="">Login</Nav.Link>
-                <Button variant="outline-dark">Register</Button>
+                <Nav.Link className="navBarItems" href="">
+                  Login
+                </Nav.Link>
+                <Nav.Link className="navBarItems btn btn-outline-dark" href="">
+                  Register
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

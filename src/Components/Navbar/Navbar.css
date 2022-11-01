@@ -1,4 +1,6 @@
-
+.navBarItems {
+    margin: 15px;
+}
 
 div.dropdown-menu.show {
     border-style: none;
